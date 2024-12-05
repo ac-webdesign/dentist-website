@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ανδριάννα Φιλίππου - Οδοντίατρος</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="header-up">
+            <div class="logo">
+                <img src="images/logo.png" alt="Αντριάνα Φιλίππου Λογότυπο">
+            </div>
+            <div class="header-button"><a href="#rantevou"><button>ΚΛΕΙΣΕ ΡΑΝΤΕΒΟΥ</button></a></div>
+        </div>
+        <nav>
+            <ul>
+                <a href="#home">
+                    <li>ΑΡΧΙΚΗ</li>
+                </a>
+                <a href="#about">
+                    <li>ΓΙΑ ΕΜΑΣ</li>
+                </a>
+                <a href="#services">
+                    <li>ΥΠΗΡΕΣΙΕΣ</li>
+                </a>
+                <a href="#contact">
+                    <li>ΕΠΙΚΟΙΝΩΝΙΑ</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+            <div class="hero-left">
+                <div class="hero-left-container">
+                    <h1>Φροντίζουμε την Οδοντική σας <span>Υγεία</span></h1>
+                    <p>Προηγμένες οδοντιατρικές υπηρεσίες για όλη την οικογένεια.</p>
+                    <button>ΚΛΕΙΣΕ ΡΑΝΤΕΒΟΥ</button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="photo active" style="background-image: url('/images/odontiatros.png');"></div>
+                <div class="photo" style="background-image: url('/images/odontiatros1.png');"></div>
+                <div class="photo" style="background-image: url('/images/odontiatros2.png');"></div>
+            </div>
+    </section>
+    <section class="appointment" id="rantevou">
+        <div class="app-left">
+            <div class="app-left-container">
+                <h1>Κλείστε το ραντεβού σας</h1>
+                <p>Εξασφάλιστε τη φροντίδα που χρειάζονται τα δόντια σας!</p>
+            </div>
+        </div>
+        <div class="app-right">
+            <form>
+                <input type="text" name="name" placeholder="Ονοματεπώνυμο">
+                <input type="tel" name="tel" placeholder="Τηλέφωνο">
+                <input type="date" id="appointment-date" name="appointment-date" required>
+                <select name="service" placeholder="Υπηρεσία" >
+                    <option value="" default>Επιλέξτε Υπηρεσίά</option>
+                    <option value="">Καθαρισμός Δοντιών</option>
+                    <option value="">Γενικός Έλεγχος</option>
+                    <option value="">Λεύκανση Δοντιών</option>
+                </select>
+                <button>ΚΛΕΙΣΕ ΡΑΝΤΕΒΟΥ</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-left">
+            <img src="images/photoprofilAI.jpg" alt="Φωτογραφία προφίλ Ανδριάννα">
+        </div>
+        <div class="about-right">
+            <h2>Λίγα λόγια για εμένα</h2>
+            <p>Ονομάζομαι Ανδριάννα Φιλίππου και είμαι Οδοντίατρος με πάθος για τη φροντίδα της στοματικής υγείας και την ενίσχυση της αυτοπεποίθησης μέσα από το χαμόγελο. Με χρόνια εμπειρίας και συνεχή εκπαίδευση στις σύγχρονες τεχνικές, προσφέρω εξατομικευμένες λύσεις για κάθε ασθενή, με έμφαση στην άνεση και την υψηλή ποιότητα υπηρεσιών.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="services-top">
+            <div class="services-top-left">
+                <h4>ΥΠΗΡΕΣΙΕΣ</h4>
+                <h2>Ανακάλυψε τις υπηρεσίες μας</h2>
+            </div>
+            <button>ΟΛΕΣ ΟΙ ΥΠΗΡΕΣΙΕΣ</button>
+        </div>
+        <div class="services-tabs">
+            <div class="tab">
+                <div class="image-container"></div>
+                <div class="tab-container">
+                    <h3>Γενικός Έλεγχος Δοντιών</h3>
+                    <p>Ολοκληρωμένη αξιολόγηση της στοματικής υγείας για την έγκαιρη διάγνωση και πρόληψη οδοντικών προβλημάτων.</p>
+                    <h6><b>ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</b></h6>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="image-container1"></div>
+                <div class="tab-container">
+                    <h3>Λεύκανση Δοντιών</h3>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    <h6><b>ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</b></h6>
+                </div>
+            </div>
+            <div class="tab">
+                <div class="image-container2"></div>
+                <div class="tab-container">
+                    <h3>Καθαρισμός Δοντιών</h3>
+                    <p>Lorem ipsum dolor sit amet, consectet adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+                    <h6><b>ΔΙΑΒΑΣΤΕ ΠΕΡΙΣΣΟΤΕΡΑ</b></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Κάντε την ερώτησή σας</h2>
+                <h4>Συμπληρώστε τη φόρμα και θα <br> επικοινωνήσουμε μαζί σας σύντομα!</h3>
+                <p><i class="fas fa-envelope"></i> info@acwebdesign.gr</p>
+                <p><i class="fas fa-phone"></i> +30 699 20 44 914</p>
+            </div>
+            <div class="form">
+                <form action="submit">
+                    <input type="text" id="name" placeholder="Ονοματεπώνυμο">
+                    <input type="tel" id="tel" placeholder="Τηλέφωνο">
+                    <input type="email" id="email" placeholder="Email">
+                    <textarea name="message" id="message" placeholder="Μήνυμα"></textarea>
+                    <button>ΑΠΟΣΤΟΛΗ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <img src="images/footer-logo.png" alt="Ανδριάννα Φιλίππου Λογότυπο">
+        <p><i class="fas fa-envelope"></i> info@afilippou.gr</p>
+        <p><i class="fas fa-phone"></i> +30 699 22 44 914</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
